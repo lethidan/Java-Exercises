@@ -1,4 +1,4 @@
-package week1.inheritance.circleandcylinder;
+package week1.inheritance.circleAndCylinder;
 
 import java.util.Scanner;
 
