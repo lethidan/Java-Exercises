@@ -1,34 +1,65 @@
-//package week1.ClassAndObject;
-//import java.util.Scanner;
-//
-//public class QuadraticEquation {
-//
-//    public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Enter coefficient a: ");
-//        double a = scanner.nextInt();
-//        System.out.print("Enter coefficient b: ");
-//        double b = scanner.nextInt();
-//        System.out.print("Enter coefficient c: ");
-//        double c = scanner.nextInt();
-//        QuadraticEquation quadraticEquationClass = new QuadraticEquation();
-//        QuadraticEquation.setCoefficientA(a);
-//        QuadraticEquation.setCoefficientB(b);
-//        QuadraticEquation.setCoefficientC(c);
-//        double delta = (b * b) - (4 * a * c);
-//        QuadraticEquation.setDiscriminant(delta);
-//        System.out.println("Delta is: " + QuadraticEquation.getDiscriminant());
-//            if (delta >= 0) {
-//                double r1 = (-b + Math.pow(delta, 0.5)) / (2 * a);
-//                double r2 = (-b - Math.pow(delta, 0.5)) / (2 * a);
-//                quadraticEquationClass.setRoot1(r1);
-//                quadraticEquationClass.setRoot2(r2);
-//                System.out.println("The system of equations with first solution is " + quadraticEquationClass.getRoot1());
-//                System.out.println("The system of equations with the second solution is " + quadraticEquationClass.getRoot2());
-//            }
-//            if(delta < 0) {
-//                System.out.println("The system of equations with no solution");
-//            }
-//        }
-//    }
-//
+package week1.ClassAndObject;
+
+
+public class QuadraticEquation {
+    double coefficientA, coefficientB, coefficientC;
+    double discriminant;
+    double root1, root2;
+    public QuadraticEquation(){
+
+    }
+
+    public QuadraticEquation(double coefficientA, double coefficientB, double coefficientC) {
+        this.coefficientA = coefficientA;
+        this.coefficientB = coefficientB;
+        this.coefficientC = coefficientC;
+    }
+
+    public double getCoefficientA() {
+        return coefficientA;
+    }
+
+    public void setCoefficientA(double coefficientA) {
+        this.coefficientA = coefficientA;
+    }
+
+    public double getCoefficientB() {
+        return coefficientB;
+    }
+
+    public void setCoefficientB(double coefficientB) {
+        this.coefficientB = coefficientB;
+    }
+
+    public double getCoefficientC() {
+        return coefficientC;
+    }
+
+    public void setCoefficientC(double coefficientC) {
+        this.coefficientC = coefficientC;
+    }
+
+    public double getDiscriminant() {
+        return discriminant;
+    }
+
+    public void setDiscriminant(double discriminant) {
+        this.discriminant = discriminant;
+    }
+
+    public double getRoot1() {
+        return root1;
+    }
+
+    public void setRoot1(double root1) {
+        this.root1 = root1;
+    }
+
+    public double getRoot2() {
+        return root2;
+    }
+
+    public void setRoot2(double root2) {
+        this.root2 = root2;
+    }
+}
