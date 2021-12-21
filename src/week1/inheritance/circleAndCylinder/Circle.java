@@ -1,6 +1,8 @@
 package week1.inheritance.circleAndCylinder;
 
 public class Circle {
+    private double radius;
+    private String color = "green";
 
 
     public double getArea() {
