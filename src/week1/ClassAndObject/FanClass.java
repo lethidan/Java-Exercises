@@ -1,4 +1,4 @@
-package week1.ClassAndObject;
+package week1.classAndObject;
 
 public class FanClass {
     public static void main(String[] args) {

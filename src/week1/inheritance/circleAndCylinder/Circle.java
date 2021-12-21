@@ -1,17 +1,13 @@
-package week1.inheritance.circleAndCylinder;
+package week1.inheritance.circleandcylinder;
 
 public class Circle {
     private double radius;
-    private String color = "green";
+    private String color;
 
-
-    public double getArea() {
-        return  radius*radius*Math.PI;
-    }
-
-    public double getPerimeter() {
-        return radius*2*Math.PI;
-    }
+//    public Circle(double radius, String color) {
+//        this.radius = radius;
+//        this.color = color;
+//    }
 
     public double getRadius() {
         return radius;
@@ -27,6 +23,14 @@ public class Circle {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public double getArea() {
+        return radius*radius*Math.PI;
+    }
+
+    public double getPerimeter() {
+        return radius*2*Math.PI;
     }
 
     @Override

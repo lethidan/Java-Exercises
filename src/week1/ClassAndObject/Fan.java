@@ -1,4 +1,4 @@
-package week1.ClassAndObject;
+package week1.classAndObject;
 
 public class Fan {
     final int SLOW = 1;

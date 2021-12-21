@@ -1,6 +1,4 @@
-package week1.ClassAndObject;
-
-import java.util.Scanner;
+package week1.classAndObject;
 
 public class StopWatch {
     long startTime;

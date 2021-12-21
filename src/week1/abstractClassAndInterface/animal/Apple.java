@@ -1,0 +1,4 @@
+package week1.abstractClassAndInterface.animal;
+
+public interface Apple {
+}
